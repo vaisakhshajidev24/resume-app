@@ -5,7 +5,7 @@ import { TbFileDownload } from "react-icons/tb";
 import Edit from '../components/Edit'
 import { MdHistory } from "react-icons/md";
 import html2canvas from "html2canvas";
-import jsPDF from "jsPDF";
+import jsPDF from "jspdf";
 import { addDownloadHistoryAPI } from "../services/allAPI";
 
 function Preview({userInput, finish, resumeId, setUserInput }) {
