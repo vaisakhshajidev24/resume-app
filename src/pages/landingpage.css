@@ -1,0 +1,51 @@
+/* landingpage css */
+
+body{
+    overflow-x: hidden; /* prevent horizontal scrolling   */
+}
+
+#bg1{
+    background-image: url('https://www.cpasitesolutions.com/cpa-websites/wp-content/uploads/2024/06/local-seo-for-bookeepers-1.png');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    width: 100%;
+    height: 450px;
+}
+
+#bg2{
+    background-image: url('https://i.pinimg.com/736x/8c/0d/61/8c0d61b23fedafe5a48995475fa41b0c.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment:fixed ;
+    width: 100%;
+    height: 500px ;
+}
+
+/* Media queries for mobile Responsiveness*/
+@media (max-width: 768px){
+    /* .row{
+        /* stack colomns vertically */
+        /* flex-direction: column; 
+    } */ 
+
+    /* .col-4, .col-6, .col-3{
+        width: 100px; 
+        /* full width for mobile */
+        /* space between stacked elements */
+        /* margin-bottom: 20px;
+    } */ 
+
+    img{
+        max-width: 100%;/* responsive image */
+        height: auto;/* maintain aspect ratio */
+    }
+
+    .box{
+        padding: 20px; /*adjusting padding for smaller screens */
+    }
+
+    h3, h4{
+        font-size: 1.5em;/* adjusting font size for heading */
+    }
+}
